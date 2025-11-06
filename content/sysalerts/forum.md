@@ -1,9 +1,9 @@
 ---
 title: "Forum"
-date: 2025-07-24T11:10:53+01:00
+date: 2025-11-06T12:21:06Z
 draft: false
 #add years months days
-expirydate: 2025-07-26 11:10:53.399738615 +0100 WEST
+expirydate: 2025-11-08 12:21:06.96138723 +0000 WET
 ---
 {{< param title >}}
 under maintenance.
