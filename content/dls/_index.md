@@ -3,13 +3,14 @@ title: "Downloads"
 date: 2024-11-27T18:54:52+01:00
 draft: false
 aliases:
-    - /download.html
-_build:
-  render: true
+- /download.html
+- ../dls.html
+build:
+  render: always
 # children build options with cascade
 cascade:
-  _build:
-    render: false
+- build:
+    render: never
 ---
 ---
 ### Installers include first Stable or RC* status 'rockstor' packages.

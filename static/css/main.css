@@ -44,11 +44,11 @@ Pink - #AB526B
  
  
 .carousel-inner{
-  // background-image: url("../images/rsz_banner2.jpg");
+  /* background-image: url("../images/rsz_banner2.jpg"); */
   background-image: url("../images/blk-blur-banner.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-   // padding-top:180px;
+   /* padding-top:180px; */
     height:600px;
   }
   
@@ -141,6 +141,7 @@ background-color:#EDC951;
 	text-align: left;
 }
 
+ 
 
 body {
   background: #fff;
@@ -434,8 +435,6 @@ input.search-form:hover {
 .navbar-inverse {
   border: none;
   background-color:#00A0B0;
-  //background-color:#EB6841; //orange
-  //background-color:#6A4A3C;
 }
 
 .navbar-inverse .navbar-brand {
@@ -2314,9 +2313,9 @@ ul.faq li > div h3 {
   font-size: 14px;
 }
 
-.post-tags {
+/*.post-tags {
 
-}
+}*/
 
 .blog .blog-item .entry-meta {
   border-radius: 5px;
@@ -2582,9 +2581,9 @@ ul.sidebar-gallery {
   z-index: 99999;
 }
 
-.post_reply_comments h2 a{
+/*.post_reply_comments h2 a{
  
-}
+}*/
 
 .message_heading {
   margin-bottom: 50px;

@@ -1,4 +1,4 @@
-{{ with .Site.GetPage "/solutions" }}
+{{ with site.GetPage "/solutions" }}
 <section id="solution">
   <div class="container">
     {{ range $index,$page := first 4 .Pages }}

@@ -3,7 +3,7 @@
 <section id="feature">
   <div class="container">
     <div class="center">
-      {{ if eq $pageKind "home" }}
+      {{ if eq $pageKind "section" }}
       <h2> {{ .Params.shorttitle }}</h2>
       <h4> {{ .Params.subtitle }}, or use <a href="{{ .Permalink }}">List View</a></h4>
       {{ .Summary }}

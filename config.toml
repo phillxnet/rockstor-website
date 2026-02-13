@@ -8,7 +8,7 @@ title = 'Rockstor | Linux & BTRFS powered Opensource NAS solution'
 # https://gohugo.io/variables/menus/#menu-entry-variables
 # Localized Time and Dates and Numbers
 # https://gohugo.io/news/0.87.0-relnotes/
-min_version = "0.87.0"
+min_version = "0.155.0"
 enableInlineShortcodes = true
 
 # We are creating like-for-like from prior Hyde created site so maintain:
@@ -18,7 +18,7 @@ uglyurls = true
 # Althought we arrange our content hierarchically internally, we are
 # historically flat in our presentation. I.e. all pages in baseURL.
 [permalinks]
-  solutions = '/:filename'
+  solutions = '/:contentbasename'
 
 # I.e. about-us.md or about-us.fr.md
 defaultContentLanguage = 'en'
@@ -155,7 +155,7 @@ downloadsserver = "https://rockstor.com/"
 logo = "images/rockstorlogo-font2.png"
 author = "See: AUTHORS file."
 # Website copyright notice (markdownify)
-copyright = "Copyright &copy; 2025 The Rockstor Project"
+copyright = "Copyright &copy; 2026 The Rockstor Project"
 # use lowercase version of frontmatter os
 downloads_os_order = ["leap15.6", "tumbleweed", "slowroll", "diy", "rpm"]
 
@@ -173,6 +173,7 @@ link = "fontawesome/css/solid.min.css"
 link = "css/majorColorChange.css"
 [[params.plugins.css]]
 link = "css/responsive.css"
+
 
 
 # JS Plugins
@@ -216,7 +217,18 @@ label = "GitHub"
 text = "Request a feature, report a bug, or fork us on GitHub."
 header = "true"
 
+# enable output of raw HTML directly into the rendered page.
+# see https://gohugo.io/configuration/markup/#rendererunsafe
+# considering that all pages are under rockstor control the risk should be small.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # This line enables the rendering of raw HTML in Markdown files
+      unsafe = true
 
+# clean public folder flag with your build command to remove stale files before regenerating.
+# see https://gohugo.io/configuration/all/#cleandestinationdir
+cleanDestinationDir = true
 
 # Privacy settings for Hugo Buil-ins
 # https://gohugo.io/about/hugo-and-gdpr/
@@ -228,7 +240,7 @@ header = "true"
     disable = true
   [privacy.instagram]
     disable = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
   [privacy.vimeo]
     disable = true

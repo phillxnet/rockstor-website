@@ -1,14 +1,14 @@
 ---
-title: "Our Parnters"
+title: "Our Partners"
 date: 2021-10-15T11:02:11+01:00
 draft: false
 # section build options:
-_build:
-  render: false
+build:
+  render: never
 # children build options with cascade
 cascade:
-  _build:
-    render: false
+  build:
+    render: never
 ---
 
 We welcome co-operation with systems distributors & software/service/hardware partners.

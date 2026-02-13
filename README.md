@@ -17,10 +17,7 @@ See: https://gohugo.io/about/hugo-and-gdpr/
 
 ## Debug build
 The minimum version of Hugo required is indicated in the top level config file "config.toml".
-The maximum version is 0.122.0 as 0.123.0 introduced breaking changes for the downloads page.
-Help with removing this upper version limit would be appreciated.
-Be sure to update the minimum version if a newer Hugo feature is used,
-or the maximum version tested to successfully render the downloads page.
+Be sure to update the minimum version if a newer Hugo feature is used.
 
 See the [Install Hugo](https://gohugo.io/getting-started/installing/) doc section for how to run Hugo locally.
 You can then build and test your changes locally by running (in the top directory of this repo):
@@ -75,7 +72,7 @@ In time we then transitioned to [Hugo](https://gohugo.io/) using our own layout 
 This was done primarily to aid maintenance/use and to include our website development in our community endeavours.
 
 # Hopes 
-We want to add French & European Portuguese etc translations.
+We want to add French & European Portuguese etc. translations.
 But we must first enable and configure Hugo's built-in multi lingual capabilities.
 This is to be tackled in a dedicated GitHub issue.
 If you are game to offer any translations then please be patient as we work towards this capability.

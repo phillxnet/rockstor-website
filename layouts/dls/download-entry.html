@@ -1,23 +1,23 @@
-<div class="{{ .Scratch.Get `formatClass` }}">
+<div class="{{ .Store.Get `formatClass` }}">
   <div class="row">
     <div class="col-md-11 center">
       <h2>{{ (title .Params.machine) }}</h2>
 
       {{ $installermap := (dict "iso" "dd" "xz" "xzcat" )}}
 
-      {{ range $dlindex,$dlfilename := (slice ($.Scratch.Get "filename") ($.Scratch.Get "filename2") ) }}
+      {{ range $dlindex,$dlfilename := (slice ($.Store.Get "filename") ($.Store.Get "filename2") ) }}
 
       {{ if $dlfilename }}
 
-      {{ if strings.HasSuffix $dlfilename "qcow2" }}<p/>
-        <p/>Also pre-sized (16GB) qcow2 format:<br/>
+      {{ if strings.HasSuffix $dlfilename "qcow2" }}
+        <br/><br/>Also pre-sized (16GB) qcow2 format:<br/>
       {{ else }}
-        Built: {{ $.Date | time.Format ":date_medium" }}<p/>
+        <p>Built: {{ $.Date | time.Format ":date_medium" }}</p>
       {{ end }}
 
       {{ range $index,$extension := (slice "" ".sha256") }}
 
-      {{ $url := (print ($.Scratch.Get "filepath") "/" $dlfilename) }}
+      {{ $url := (print ($.Store.Get "filepath") "/" $dlfilename) }}
 
       <a href="{{ $url }}{{ $extension }}">{{ $dlfilename }}{{ $extension }}</a> <br/>
 
@@ -45,7 +45,5 @@
 
       <br/> {{.Content}}
     </div>
-
-
   </div>
 </div>

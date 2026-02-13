@@ -12,7 +12,7 @@
   <div class="container">
     {{ range $index,$page := .Data.Pages }}
 
-    {{ .Scratch.Set "formatClass" (print "feature" (add (mod $index 2) 1)) }}
+    {{ .Store.Set "formatClass" (print "feature" (add (mod $index 2) 1)) }}
 
     {{ .Render "ffull"}}
 
