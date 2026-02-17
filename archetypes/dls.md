@@ -13,4 +13,4 @@ rpm_release: "0"
 installer_patch: ""
 ---
 
-A sentences or two about this installer (one sentence per line).
+A sentence or two about this installer (one sentence per line).

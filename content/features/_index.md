@@ -1,9 +1,12 @@
 ---
 title: "Advanced features powered by Linux, BTRFS, and Docker"
-shorttitle: "Features Overview"
-subtitle: "Click icons to browse, (Docs) for details"
+Params:
+  shorttitle: "Features Overview"
+  subtitle: "Click icons to browse, (Docs) for details"
 date: 2021-10-15T11:02:11+01:00
 draft: false
+aliases:
+- ../features.html
 ---
 
 Rockstor is a Linux and BTRFS powered storage operating system with advanced NAS and Cloud Storage features, supporting

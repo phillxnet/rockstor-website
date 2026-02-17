@@ -6,7 +6,7 @@ icon: "fa-solid fa-file-shield"
 doclink: "/docs/interface/overview.html"
 ---
 
-In addition to the file sharing capability (i.e SMB Time Machine/Windows Backup) we also have an ever growing Rock-on complement.
+In addition to the file sharing capability (e.g. SMB Time Machine/Windows Backup), we also have an ever growing Rock-on complement.
 Many of which are backup focused.
 Client/device backup is just a technology choice away.
 Consider for example our Duplicati Rock-on.

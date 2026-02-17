@@ -3,7 +3,7 @@
 
     <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
 
-      {{ range .Site.Params.social }}
+      {{ range site.Params.social }}
 
       <i style="color: #EB6841;" class="{{ .icon }}"></i>
 
@@ -12,7 +12,7 @@
 
       {{ end }}
 
-      {{ range .Site.Params.email }}
+      {{ range site.Params.email }}
 
       <i style="color: #EB6841;" class="{{ .icon }}"></i>
 

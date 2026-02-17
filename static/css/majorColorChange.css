@@ -179,7 +179,7 @@ padding-left: 60px;
 	}
 
 .btn .btn-danger .btn-danger2{
-	//background:#EB6841;
+	/*background:#EB6841;*/
 	background:#80BCA3;
 }
 
@@ -243,13 +243,13 @@ background-image: url("../images/rsz_rockstor_slider.png");
 #solution{
 /* background-color:#EDC951; Yellow Color */
 background-color:#fff;
-//background: #f2f2f2;
+/*background: #f2f2f2;*/
 
 }
-#solution h2{
- /* color: #6A4A3C;
-  Brown Color */
-}
+/* #solution h2{
+  color: #6A4A3C;
+  Brown Color
+} */
 
 
 .about_btn {
@@ -281,7 +281,7 @@ background-color:#fff;
 }
 .solution_box h2 {
 	font-size: 1.6em;
-	//color: #EB6841;
+	/*color: #EB6841;*/
 	padding-top: 0.3em;
 	padding-right: 0;
 	padding-left: 0;
@@ -303,6 +303,13 @@ background-color:#fff;
 	margin-bottom: 1.4em;
 	line-height: 1.6em;
 	text-align: left;
+}
+
+/* Built-on header for downloads */
+.built-on {
+  color: #EB6841;
+  font-size: 28px;
+  text-align: center;
 }
 
 
@@ -353,7 +360,7 @@ h4{
 }
 
 a {
- 	//color: #c52d2f;
+ 	/*color: #c52d2f;*/
   color:#bc5334;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -603,10 +610,10 @@ input.search-form:hover {
 
 .navbar-inverse {
   border: none;
-  //background-color:#00A0B0;
- // background-color:black;
-  //background:#4C4C4C;
-  //background-color:#6A4A3C;
+  /*background-color:#00A0B0;
+  background-color:black;
+  background:#4C4C4C;
+  background-color:#6A4A3C;*/
 }
 
 .navbar-inverse .navbar-brand {
@@ -749,7 +756,7 @@ input.search-form:hover {
 #main-slider .next {
   position: absolute;
   top: 50%;
-  //background-color:#EB6841;
+  /*background-color:#EB6841;*/
   color: #fff;
   color:#EB6841;
   display: inline-block;
@@ -763,10 +770,10 @@ input.search-form:hover {
   z-index: 5;
 }
 
-#main-slider .prev:hover,
+/* #main-slider .prev:hover,
 #main-slider .next:hover {
-  //background-color: #000;
-}
+  background-color: #000;
+} */
 
 #main-slider .prev {
   left: 10px;
@@ -978,8 +985,8 @@ input.search-form:hover {
   padding: 30px 20px;
   border-radius: 4px;
   margin: 0 0 40px;
-  //border: 1px solid #ddd;
-  //box-shadow: 10px 10px 5px #888888;
+  /*border: 1px solid #ddd;
+  box-shadow: 10px 10px 5px #888888;*/
   box-shadow: inset 0 0 10px #000000;
 }
 
@@ -1016,7 +1023,7 @@ input.search-form:hover {
 
 /**** RESOURCES ****/
 #resources {
- // background: #000 url(../images/services/bg_services.png);
+ /* background: #000 url(../images/services/bg_services.png);*/
  background: url(../images/rsz_book.jpg);
   background-size: cover;
   /* background: #f2f2f2;
@@ -1061,14 +1068,13 @@ input.search-form:hover {
 
 /**** RESOURCES ****/
 
-#middle {
-	/* removing green color for tweets */
-  /* background: #5E8C6A; */
-}
+/* #middle {
+	background: #5E8C6A;
+} */
 
-#middle h2{
- //color:#fff;
-}
+/* #middle h2{
+ color:#fff;
+} */
 
 .skill h2{
   margin-bottom: 25px;
@@ -1337,20 +1343,20 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#partner {
+/* #partner {
  /* background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
-  background-size: cover; */
-}
+  background-size: cover;
+} */
 
 #partner {
-  //color: #fff;
+  /*color: #fff;*/
   text-align: center;
 }
 
-#partner h2,
+/* #partner h2,
 #partner h3 {
-  //color: #fff;
-}
+  color: #fff;
+} */
 
 .partners ul {
   list-style: none;
@@ -2541,9 +2547,9 @@ ul.faq li > div h3 {
   font-size: 14px;
 }
 
-.post-tags {
+/*.post-tags {
 
-}
+} */
 
 .blog .blog-item .entry-meta {
   border-radius: 5px;
@@ -2809,9 +2815,9 @@ ul.sidebar-gallery {
   z-index: 99999;
 }
 
-.post_reply_comments h2 a{
+/* .post_reply_comments h2 a{
 
-}
+} */
 
 .message_heading {
   margin-bottom: 50px;
@@ -2890,7 +2896,7 @@ shortcodes page css
 }
 
 #bottom ul li a:hover {
- // color: #c52d2f;
+ /* color: #c52d2f;*/
    color: #EB6841;
 }
 
@@ -2902,7 +2908,7 @@ shortcodes page css
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  //background:#6A4A3C;
+  /*background:#6A4A3C;*/
   background:black;
 }
 

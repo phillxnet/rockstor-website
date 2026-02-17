@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main aria-role="main">
+<main role="main">
   <header class="page-header-rockstor" style="background-color: grey">
     {{ with .Params.subtitle }} <span class="subtitle">{{.}}</span> {{ end }}
 
@@ -12,7 +12,9 @@
   </div>
   {{ partial "solutions-summary.html" . }}
 
-  {{ .Render "features/fpartial" }}
+  {{ with .Site.GetPage "/features" }}
+    {{ .Render "fpartial" }}
+  {{ end }}
 
   {{ partial "partners.html" . }}
 </main>

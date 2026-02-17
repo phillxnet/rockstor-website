@@ -1,0 +1,1 @@
+<img src="{{ .Destination | safeURL }}" alt="{{ if .Text }}{{ .Text }}{{ else }}{{ .Page.Title }} image{{ end }}" {{ with .Title }}title="{{ . }}"{{ end }} class="img-responsive" />
