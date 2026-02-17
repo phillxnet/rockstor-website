@@ -9,7 +9,7 @@ layout: about-us
 [The Rockstor Project](https://opencollective.com/the-rockstor-project)
 is an [Open Collective](https://opencollective.com/) Non-Profit/Non-Business Open Source community endeavour.
 
-We are supported by our members/subscribers/contributors and fiscally hosted by [Open Collective Europe](https://opencollective.com/europe).
+We are supported by our contributors, and fiscally hosted by [Open Source Europe (OSE)](https://opencollective.com/europe).
 
 *Founder & prior Maintainer: Suman Chakravartula - Domain and [trademarks]({{< relref legal.md >}}) owner/admin.*
 
