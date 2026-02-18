@@ -15,8 +15,6 @@ We are supported by our contributors, and fiscally hosted by [Open Source Europe
 
 *Current Maintainer: Philip Paul Guyton - Project lead, core developer, and release manager.*
 
-Our websites & support email use the "rockstor" domain. But forum notifications uses the "linuxlines" domain.
-This mixed domain use should be resolved soon.
 
 ## Our Endeavour
 ---
@@ -36,7 +34,7 @@ Privacy, security, and freedom.
 
 **Simple Storage done Sustainably.**
 
-## Our GitHub
+## Our Git Repos
 
 {{< /center-this >}}
 
@@ -44,16 +42,16 @@ Privacy, security, and freedom.
 
 Repository |           About           | Contributors
 :---: |:-------------------------:| :---:
-[rockstor-core](https://github.com/rockstor/rockstor-core/tree/testing) |      Main Repository      | 49
-[rockon-registry](https://github.com/rockstor/rockon-registry) | Rock-ons (Docker Plugins) | 76
-[rockstor-docs](https://github.com/rockstor/rockstor-doc) |         Main Docs         | 30
-[rockstor-jslibs](https://github.com/rockstor/rockstor-jslibs) |       JS lib bundle       | 4
-[rockstor-rpmbuild](https://github.com/rockstor/rockstor-rpmbuild/tree/testing) | RPM build specifications  | 2
-[rockstor-installer](https://github.com/rockstor/rockstor-installer) | Kiwi-ng installer config  | 11
-[rockstor-website](https://github.com/rockstor/rockstor-website) |    This WebSite (Hugo)    | [6](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
+[rockstor-core](https://github.com/rockstor/rockstor-core/tree/testing) |      Main Repository      | 55
+[rockon-registry](https://github.com/rockstor/rockon-registry) | Rock-ons (Docker Plugins) | 81
+[rockstor-docs](https://github.com/rockstor/rockstor-doc) |         Main Docs         | 35
+[rockstor-jslibs](https://github.com/rockstor/rockstor-jslibs) |       JS lib bundle       | 5
+[rockstor-rpmbuild](https://github.com/rockstor/rockstor-rpmbuild/tree/testing) | RPM build specifications  | 4
+[rockstor-installer](https://github.com/rockstor/rockstor-installer) | Kiwi-ng installer config  | 12
+[rockstor-website](https://github.com/rockstor/rockstor-website) |    This WebSite (Hugo)    | [8](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
 
 {{< /bootstrap-table >}}
-*(Contributors: git shortlog -sn --all | wc -l)*
+*(Contributors: git shortlog -s -n \--all | wc -l)*
 
 ## Contact Us
 ---
