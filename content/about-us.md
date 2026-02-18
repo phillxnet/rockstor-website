@@ -13,7 +13,7 @@ We are supported by our contributors, and fiscally hosted by [Open Source Europe
 
 *Founder & prior Maintainer: Suman Chakravartula - Domain and [trademarks]({{< relref legal.md >}}) owner/admin.*
 
-*Current Maintainer: Philip Paul Guyton - Project lead, core developer, & release manager.*
+*Current Maintainer: Philip Paul Guyton - Project lead, core developer, and release manager.*
 
 Our websites & support email use the "rockstor" domain. But forum notifications uses the "linuxlines" domain.
 This mixed domain use should be resolved soon.
