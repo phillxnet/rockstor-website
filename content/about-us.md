@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-date: 2021-10-08T18:54:58+01:00
+date: 2026-02-19T12:00:00+00:00
 draft: false
 layout: about-us
 ---
@@ -13,11 +13,15 @@ We are supported by our contributors, and fiscally hosted by [Open Source Europe
 
 *Founder & prior Maintainer: Suman Chakravartula - Domain and [trademarks]({{< relref legal.md >}}) owner/admin.*
 
-*Current Maintainer: Philip Paul Guyton - Project lead, core developer, and release manager.*
+*Maintainer: Philip Paul Guyton - Project Lead, senior developer, and release manager.*
 
+*Co-Maintainer: Flox - Joint Project Lead, senior developer, and openQA backend dev.*
 
-## Our Endeavour
+*Rock-ons Maintainer: Dan W - Core Contributor, core developer, and forum moderator.*
+
 ---
+## Our Endeavour
+
 To develop, maintain, and distribute an easy to use, flexible, Linux & BTRFS based DIY software appliance solution.
 
 **Open source and community focused.** We develop on GitHub in collaboration with our users,
@@ -34,27 +38,29 @@ Privacy, security, and freedom.
 
 **Simple Storage done Sustainably.**
 
+---
 ## Our Git Repos
 
 {{< /center-this >}}
 
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 
-Repository |           About           | Contributors
-:---: |:-------------------------:| :---:
-[rockstor-core](https://github.com/rockstor/rockstor-core/tree/testing) |      Main Repository      | 55
-[rockon-registry](https://github.com/rockstor/rockon-registry) | Rock-ons (Docker Plugins) | 81
-[rockstor-docs](https://github.com/rockstor/rockstor-doc) |         Main Docs         | 35
-[rockstor-jslibs](https://github.com/rockstor/rockstor-jslibs) |       JS lib bundle       | 5
-[rockstor-rpmbuild](https://github.com/rockstor/rockstor-rpmbuild/tree/testing) | RPM build specifications  | 4
-[rockstor-installer](https://github.com/rockstor/rockstor-installer) | Kiwi-ng installer config  | 12
-[rockstor-website](https://github.com/rockstor/rockstor-website) |    This WebSite (Hugo)    | [8](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
+Repository |                About                 | Contributors
+:---: |:------------------------------------:| :---:
+[rockstor-core](https://github.com/rockstor/rockstor-core/tree/testing) |           Main Repository            | 55
+[rockon-registry](https://github.com/rockstor/rockon-registry) | Rock-on Definitions (Docker Plugins) | 81
+[rockon-validator](https://github.com/rockstor/rockon-validator) |   Rock-on validator written in Go    | 3
+[rockstor-docs](https://github.com/rockstor/rockstor-doc) |              Main Docs               | 35
+[rockstor-jslibs](https://github.com/rockstor/rockstor-jslibs) |            JS lib bundle             | 5
+[rockstor-rpmbuild](https://github.com/rockstor/rockstor-rpmbuild/tree/testing) |       RPM build specifications       | 4
+[rockstor-installer](https://github.com/rockstor/rockstor-installer) |       Kiwi-ng installer config       | 12
+[rockstor-website](https://github.com/rockstor/rockstor-website) |         This WebSite (Hugo)          | [8](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
 
 {{< /bootstrap-table >}}
 *(Contributors: git shortlog -s -n \--all | wc -l)*
 
-## Contact Us
 ---
+## Contact Us
 
 
 
